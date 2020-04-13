@@ -23,6 +23,7 @@ BASE_PATH = base_path_win
 if name is 'posix':
     base_path = base_path_unix
 
+
 # scrapy日志配置
 LOG_ENABLED = True
 LOG_FILE = BASE_PATH + 'log/scrapy_{}-{}-{}.log'.format(today.year, today.month, today.day)
